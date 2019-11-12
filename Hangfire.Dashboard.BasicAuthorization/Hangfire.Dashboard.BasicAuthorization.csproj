@@ -1,17 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
+    <Version>3.0.0</Version>
     <Authors>yuzd</Authors>
     <Description>enable basic authorization for hangfire(api or dashbord..)</Description>
     <PackageProjectUrl>https://github.com/yuzd/Hangfire.Dashboard.BasicAuthorization</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.7" />
   </ItemGroup>
 
 </Project>
